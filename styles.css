@@ -1,0 +1,126 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1D3557;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+main {
+    max-width: 900px;
+    border: 1px solid #F1FAEE;
+}
+
+img {
+    width: 100px;
+    max-width: 100%;
+}
+
+/* ======== hero section ========= */
+
+.hero {
+    background-image: url('images/torshov.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ========= typography ========= */
+
+.hero-title, .hero-subtitle {
+    border-radius: 6px;
+}
+
+.hero-title {
+    font-size: 1.5rem;
+    background-color: #457B9D;
+    color: white;
+    padding: 0.1em 0.25em;
+    margin-bottom: 0;
+}
+
+.hero-subtitle {
+    font-size: 1rem;
+    background-color: #1D3557;
+    color: white;
+    width: 300px;
+    max-width: 720px;
+    padding: 0.25em 0.5em;;
+    line-height: 1.2em;
+}
+
+.activity-heading {
+    margin-bottom: 0;
+    font-size: 1.35rem;
+}
+
+.activity-idea {
+    font-weight: 800;
+}
+
+/* ======== activities section ========= */
+
+.top-three {
+    background-color: #F1FAEE;
+    margin-top: 0;
+    padding: 1em;
+}
+
+.activities{
+    display: flex;
+}
+
+.activity {
+    padding: 1em 1.25em;
+    width: 33%;
+}
+
+.activity-img {
+    border-radius: 100px;
+}
+
+/* ======== guide section ========= */
+
+.guide {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 350px;
+    background-color: #A8DADC;
+    padding: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 6px 0px #1D3557;
+}
+
+.per {
+    margin-right: 1.5em;
+    width: 45%;
+    border-radius: 10px;
+}
